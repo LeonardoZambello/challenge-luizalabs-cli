@@ -1,0 +1,22 @@
+{
+  "name": "challenge-luizalabs-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:cov": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "challenge-luizalabs-cli": "./bin/index.js"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
