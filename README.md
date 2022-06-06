@@ -22,8 +22,6 @@ Para instalar e configurar o ambiente tornando possivel a execução do programa
 
 ### Executando o programa
 
-- Para a execução do programa basta digitar o comando `challenge-luizalabs-cli`, esse comando deve ser seguido de pelo menos um parâmetro que ira definir qual etapa a aplicação irá executar.
-
 - Na primeira vez em que for executar o programa, para que tudo ocorra com sucesso, deve-se primeiro executar o comando `challenge-luizalabs-cli pre-script`, com isso, a aplicação irá pré processar toda a massa de dados dos arquivos .txt do diretório configurado no arquivo .env.
 
 - Feito o passo anterior, deve-se então executar o comando `challenge-luizalabs-cli script 'valor1', 'valor2'`, onde valor1 e valor2 são as palavras que serão pesquisadas dentro da massa de dados dos arquivos já preparada através da execução do pré-script.
