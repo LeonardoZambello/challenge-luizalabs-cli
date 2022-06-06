@@ -68,7 +68,7 @@ describe('PreScript', () => {
         expect(fileManipulator.listAllFiles).toBeCalledTimes(1);
         expect(fileManipulator.readFile).toBeCalledTimes(1);
         expect(fileManipulator.writeFile).not.toBeCalled();
-        expect(console.log).toBeCalledTimes(2);
+        expect(consoleSpy).toBeCalledTimes(2);
     });
     test('Should not execute prescript if throws while write file', async () => {
         const { fileManipulator } = setupDependencies();
@@ -89,6 +89,6 @@ describe('PreScript', () => {
         expect(fileManipulator.listAllFiles).toBeCalledTimes(1);
         expect(fileManipulator.readFile).toBeCalledTimes(1);
         expect(fileManipulator.writeFile).toBeCalledWith('/any/path', JSON.stringify({ "abc": ["fileName1"], "def": ["fileName1"] }));
-        expect(console.log).toBeCalledTimes(2);
+        expect(consoleSpy).toBeCalledTimes(2);
     });
 });
