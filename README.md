@@ -1,6 +1,6 @@
 # Descrição
 
-Projeto para buscar palavras dentro de muitos arquivos.
+Projeto realizado para solucionar o desafio técnico para o processo seletivo da luizalabs.
 
 ## Instalação
 
